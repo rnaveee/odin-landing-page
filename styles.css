@@ -26,3 +26,52 @@ body {
     color: #E5E7EB;
 }
 
+.hero-container {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius: 10px;
+    border-style: hidden;
+    font-weight: bold;
+}
+
+.img-container {
+    display:flex;
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+} 
+
+.hero-information {
+    display: flex;
+    flex-direction: column;
+    margin-right: 67px;
+    width: 450px;
+    gap: 10px;
+}
+
+.hero-information h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-information p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+}
